@@ -1,0 +1,52 @@
+.places h1
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 30px;
+}
+.places
+{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+article
+{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+}
+h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+.price_by_night
+{
+    color: #FF5A5F;
+    border: #FF5A5F 4px rounded;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    /*align: the top right (with space)*/
+}
+.information
+{
+    height: 80px;
+    border-top: #DDDDDD 1px;
+    border-bottom: #DDDDDD 1px;
+    /*vertical align*/
+}
+.max_guest,
+.number_rooms,
+.number_bathrooms
+{
+    width: 100px;
+}
